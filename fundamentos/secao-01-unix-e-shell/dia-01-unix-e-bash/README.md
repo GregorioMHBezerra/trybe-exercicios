@@ -1,4 +1,4 @@
-# DIA 1
+# SEÇÃO 1 - DIA 1
 
 ## O objetivo dos exercícios desse dia foi colocar em prática o aprendizado sobre UNIX E BASH. 
 
