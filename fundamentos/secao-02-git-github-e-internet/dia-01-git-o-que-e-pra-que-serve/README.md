@@ -19,3 +19,6 @@ Comandos|Significado
 `git checkout` *nome da branch*|alterna para a *branch* especificada
 `git log`|mostra os registros dos *commits* (alterações realizadas)
 `git merge` *nome da branch*|realiza a mesclagem das alterações da *branch* especificada
+
+
+:exclamation: É uma boa prática *dar commits* ao longo do desenvolvimento do projeto, evitando o *comitão*  
