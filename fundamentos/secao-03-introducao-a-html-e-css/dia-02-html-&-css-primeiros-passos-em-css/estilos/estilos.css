@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+p{
+    font-weight: 600;
+    font-size: 3em;
+    font-style: inherit;
+    line-height: 50px;
+    text-align: justify;
+    text-decoration: dashed;
+}
+
+ul{
+    background-color: rgba(109, 86, 212, 0.404);
+}
+
+.pul{
+    color: red;
+}
