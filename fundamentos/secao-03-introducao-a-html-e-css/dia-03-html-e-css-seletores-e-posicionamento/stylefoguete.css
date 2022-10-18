@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+div:hover{
+    border-color: 2px red solid;
+}
+
+div:nth-of-type(1){
+    background-color: orange;
+    height: 150px;
+}
+div:nth-of-type(2){
+    background-color: rgb(175, 118, 11);
+    height: 150px;
+}
+div:nth-of-type(3){
+    background-color: rgb(107, 85, 43);
+    height: 200px;
+}
+div:nth-of-type(4){
+    background-color: rgba(67, 173, 115, 0.664);
+    height: 150px;
+}
+div:nth-of-type(5){
+    background-color: rgb(19, 8, 185);
+    height: 150px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+div:nth-child(odd) h3{
+    font-style: italic;
+    color: chartreuse;
+}
