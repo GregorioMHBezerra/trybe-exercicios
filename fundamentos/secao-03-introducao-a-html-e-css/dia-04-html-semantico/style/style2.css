@@ -1,13 +1,7 @@
 @charset "utf-8";
 
-table{
-    border: solid;
-}
-
-table th, table td{
-    border: 1px black solid;
-    margin: 0;
-    padding: 1px;
+body{
+    background-color: lightblue;
 }
 
 img{
