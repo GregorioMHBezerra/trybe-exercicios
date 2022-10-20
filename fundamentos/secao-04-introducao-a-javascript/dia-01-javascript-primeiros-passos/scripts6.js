@@ -137,4 +137,21 @@ switch (pecaXadrez.toLowerCase()) {
 // Porcentagem >= 50 -> E
 // Porcentagem < 50 -> F
 // O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+const nota = 80
+let notaLetra = null
 
+if (nota >= 90) {
+  notaLetra = "A"
+} else if (nota >= 80) {
+  notaLetra = "B"
+} else if (nota >= 70) {
+  notaLetra = "C"
+} else if (nota >= 60) {
+  notaLetra = "D"
+} else if (nota >= 50) {
+  notaLetra = "E"
+} else if (nota < 50) {
+  notaLetra = "F"
+} else {
+  console.log('Nota informada inválida.')
+}
