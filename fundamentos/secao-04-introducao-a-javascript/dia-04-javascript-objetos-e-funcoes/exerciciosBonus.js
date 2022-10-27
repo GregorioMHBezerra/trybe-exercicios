@@ -125,43 +125,43 @@ console.log(arrayOfNumbers([[1, 2], [3,4,5,6], [7,8,9,10]]));
 // ];
 
 
-// function cestinha(array) {
-//   let cesta = {};
-//   for (let fruta = 0; fruta < array.length; fruta++) {
-//     let contador = 0;
-//     for (let quantidade = 0; quantidade < array.length; quantidade++) {
-//     if (basket[fruta] == basket[quantidade]) {
-//       contador += 1
-//     } else {
-//       se houver a chave na cesta então adiciona um numero
-//       se não houver a chave, adiciona a chave e adiciona um numero
+function cestinha(array) {
+  let cesta = {};
+  for (let fruta = 0; fruta < array.length; fruta++) {
+    let contador = 0;
+    for (let quantidade = 0; quantidade < array.length; quantidade++) {
+    if (basket[fruta] == basket[quantidade]) {
+      contador += 1
+    }
+    cesta[`${array[fruta]}`] = contador
+      // se houver a chave na cesta então adiciona um numero
+      // se não houver a chave, adiciona a chave e adiciona um numero
 
-//     }
-//     }
     
-//   }
-//   }
-//   return cesta
-// }
-// console.log(cestinha([
-//   'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
-//   'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
-//   'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
-//   'Banana', 'Melancia', 'Laranja', 'Laranja', 'Jaca', 'Uva',
-//   'Banana', 'Uva', 'Laranja', 'Pera', 'Melancia', 'Uva',
-//   'Jaca', 'Banana', 'Pera', 'Abacate', 'Melancia', 'Melancia',
-//   'Laranja', 'Pera', 'Banana', 'Jaca', 'Laranja', 'Melancia',
-//   'Abacate', 'Abacate', 'Pera', 'Melancia', 'Banana', 'Banana',
-//   'Abacate', 'Uva', 'Laranja', 'Banana', 'Abacate', 'Uva',
-//   'Uva', 'Abacate', 'Abacate', 'Melancia', 'Uva', 'Jaca',
-//   'Uva', 'Banana', 'Abacate', 'Banana', 'Uva', 'Banana',
-//   'Laranja', 'Laranja', 'Jaca', 'Jaca', 'Abacate', 'Jaca',
-//   'Laranja', 'Melancia', 'Pera', 'Jaca', 'Melancia', 'Uva',
-//   'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
-//   'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
-//   'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
-//   'Banana', 'Pera', 'Abacate', 'Uva',
-// ]));
+    }
+    
+  }
+  return cesta
+}
+console.log(cestinha([
+  'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
+  'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
+  'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
+  'Banana', 'Melancia', 'Laranja', 'Laranja', 'Jaca', 'Uva',
+  'Banana', 'Uva', 'Laranja', 'Pera', 'Melancia', 'Uva',
+  'Jaca', 'Banana', 'Pera', 'Abacate', 'Melancia', 'Melancia',
+  'Laranja', 'Pera', 'Banana', 'Jaca', 'Laranja', 'Melancia',
+  'Abacate', 'Abacate', 'Pera', 'Melancia', 'Banana', 'Banana',
+  'Abacate', 'Uva', 'Laranja', 'Banana', 'Abacate', 'Uva',
+  'Uva', 'Abacate', 'Abacate', 'Melancia', 'Uva', 'Jaca',
+  'Uva', 'Banana', 'Abacate', 'Banana', 'Uva', 'Banana',
+  'Laranja', 'Laranja', 'Jaca', 'Jaca', 'Abacate', 'Jaca',
+  'Laranja', 'Melancia', 'Pera', 'Jaca', 'Melancia', 'Uva',
+  'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
+  'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
+  'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
+  'Banana', 'Pera', 'Abacate', 'Uva',
+]));
 
 
 
