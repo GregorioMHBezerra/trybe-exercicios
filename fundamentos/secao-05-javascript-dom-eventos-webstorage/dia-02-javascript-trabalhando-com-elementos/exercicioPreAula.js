@@ -10,7 +10,7 @@
 const primeiroElemento = document.getElementById('elementoOndeVoceEsta').parentNode;
 primeiroElemento.style.backgroundColor = 'red';
 
-primeiroElemento.children[1].firstElementChild.innerText = 'olá';
+primeiroElemento.children[1].firstElementChild.innerText = 'olá2';
 
 
 
@@ -19,3 +19,36 @@ console.log(primeiroElemento.children[1].previousElementSibling);
 console.log(primeiroElemento.children[1].nextSibling);
 console.log(primeiroElemento.children[1].nextElementSibling);
 console.log(primeiroElemento.children[2]);
+
+// Crie um irmão para elementoOndeVoceEsta.
+// Crie um filho para elementoOndeVoceEsta.
+// Crie um filho para primeiroFilhoDoFilho.
+// A partir desse filho criado, acesse terceiroFilho.
+
+//captura o elemento pai e coloca ela numa variável
+let sectionPai = document.getElementById('pai');
+
+//cria um elemento section com um h1 dentro
+let criarSection = document.createElement('section');
+criarSection.innerHTML = '<h1> Olá </h1>'
+
+
+//adiciona o elemento section criado como filho da váriável que captura o id PAI
+sectionPai.appendChild(criarSection);
+
+
+//captura o id e coloca na variável
+let sectionElementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+
+
+//adiciona uma section como filho do elemento capturado
+sectionElementoOndeVoceEsta.appendChild(criarSection);
+
+//outra forma de fazer sem precisar capturar e jogar numa variável
+    // document.getElementById('elementoOndeVoceEsta').appendChild(criarSection);
+
+
+// adiciona uma section ao primeiro elemento filho do elemento capturado e atribuido a variável    
+sectionElementoOndeVoceEsta.firstElementChild.appendChild(criarSection).setAttribute('id', 'tentativa');
+
+console.log(document.getElementById('tentativa').parentNode.parentNode.nextElementSibling);
