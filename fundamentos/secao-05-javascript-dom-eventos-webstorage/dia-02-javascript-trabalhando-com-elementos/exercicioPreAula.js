@@ -7,3 +7,15 @@
 // Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
 // Agora acesse o terceiroFilho a partir de pai.
 
+const primeiroElemento = document.getElementById('elementoOndeVoceEsta').parentNode;
+primeiroElemento.style.backgroundColor = 'red';
+
+primeiroElemento.children[1].firstElementChild.innerText = 'olá';
+
+
+
+console.log(primeiroElemento.firstElementChild);
+console.log(primeiroElemento.children[1].previousElementSibling);
+console.log(primeiroElemento.children[1].nextSibling);
+console.log(primeiroElemento.children[1].nextElementSibling);
+console.log(primeiroElemento.children[2]);
