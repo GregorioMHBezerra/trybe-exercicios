@@ -52,3 +52,14 @@ sectionElementoOndeVoceEsta.appendChild(criarSection);
 sectionElementoOndeVoceEsta.firstElementChild.appendChild(criarSection).setAttribute('id', 'tentativa');
 
 console.log(document.getElementById('tentativa').parentNode.parentNode.nextElementSibling);
+
+//Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
+
+const arraySection = document.getElementsByTagName('section');
+
+for (let index = 0; index < arraySection.length; index += 1) {
+  const element = arraySection[index];
+  if (element.id != 'pai' && element.id != 'elementoOndeVoceEsta' && element.id != 'primeiroFilhoDoFilho') {
+    element.remove();
+  }
+}
