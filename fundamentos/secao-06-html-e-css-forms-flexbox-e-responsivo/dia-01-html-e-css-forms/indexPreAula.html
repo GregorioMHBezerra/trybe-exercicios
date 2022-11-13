@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Formulário de Login</title>
+</head>
+<body>
+  <form action="" method="GET" enctype="multipart/form-data">
+    <label for="lembrar"> lembre-me
+      <input type="checkbox" name="lembrar" id="lembrar">
+    </label>
+    <label for="entrar">
+      <input type="button" value="Entrar">
+    </label>
+
+    <label for="email">
+      <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required autocomplete="off" autofocus>
+    </label>
+    <label for="senha">
+      <input type="password" name="senha" placeholder="Digite sua senha" id="senha" required>
+    </label>
+    
+    <section>
+      <label for="dropdown-list">Estado:
+        <select name="estados" id="dropdown-list">
+          <option value="pe" selected>Pernambuco</option>
+          <option value="ma">Maranhão</option>
+          <option value="pi">Piauí</option>
+          <option value="ba">Bahia</option>
+          <option value="pb">Paraíba</option>
+          <option value="al">Alagoas</option>
+          <option value="rn">Rio Grande do Norte</option>
+        </select>
+      </label>
+    </section>
+
+    <section>
+      <input type="file" name="foto" id="input-foto">
+    </section>
+
+    <section>
+      <p>
+        Comida Favorita:
+      </p>
+      <label for="comida-favorita1">
+        <input type="radio" name="comida-favorita" id="comida-favorita1" value="chocolate" checked>Chocolate
+      </label>
+      <label for="comida-favorita2">
+        <input type="radio" name="comida-favorita" id="comida-favorita2" value="rabanada">Rabanada
+      </label>
+      <label for="comida-favorita3">
+        <input type="radio" name="comida-favorita" id="comida-favorita3" value="rabada">Rabada
+      </label>
+      <label for="comida-favorita4">
+        <input type="radio" name="comida-favorita" id="comida-favorita4" value="file-parmegiana">Filé a Parmegiana
+      </label>
+    </section>
+    
+  
+    <a href="www.betrybe.com" target="_blank" id="href">TRYBE</a>
+    <input type="text" id="input-text"/>
+    <input type="checkbox" id="input-checkbox" />
+  </form>
+
+  <script src="scriptPreAula.js"></script>
+</body>
+</html>
