@@ -48,9 +48,9 @@ if (valor1 > valor2) {
 
 
 // Utilize if/else para fazer um programa que retorne o maior de três números. Defina, no começo do programa, três constantes com os valores que serão comparados.
-const valor3 = 10;
+const valor3 = 5;
 const valor4 = 10;
-const valor5 = 10;
+const valor5 = 5;
 
 if (valor4 > valor3 && valor4 > valor5) {
   console.log(`${valor4} é maior`)
