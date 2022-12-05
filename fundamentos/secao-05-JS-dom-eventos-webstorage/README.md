@@ -1,4 +1,4 @@
-# Seção - UNIX E SHELL
+# Seção 5 - JS, DOM, EVENTOS E WEBSTORAGE
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre o conceito e utilização do DOM no JS, com elementos e eventos. Além disso aprendi a salvar e recuperar informações do Local Storage.
 

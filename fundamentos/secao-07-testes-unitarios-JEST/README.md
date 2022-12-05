@@ -1,4 +1,4 @@
-# Seção - UNIX E SHELL
+# Seção 7 - TESTE UNITÁRIO E JEST
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre 
 

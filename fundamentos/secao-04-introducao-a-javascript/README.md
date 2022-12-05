@@ -1,4 +1,4 @@
-# Seção - UNIX E SHELL
+# Seção 4 - INTRODUÇÃO AO JAVASCRIPT
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre o básico de JS, como lógica de programação e algoritmos, objetos e funções, arrays, laços de repetição (for, forin, forof), &&, || e !, template literals e arrow functions.
 

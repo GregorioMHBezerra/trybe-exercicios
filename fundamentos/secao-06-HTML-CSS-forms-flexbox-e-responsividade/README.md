@@ -1,4 +1,4 @@
-# Seção - UNIX E SHELL
+# Seção 6 - CSS, FORMS, FLEXBOX E RESPONSIVIDADE
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre 
 
