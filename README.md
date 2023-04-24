@@ -140,15 +140,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 1-1: _Utilizando Containers - Docker_
 - [x] 1-2: _Manipulando Imagens no Docker_
 - [x] 1-3: _Orquestrando Containers com Docker Compose_
-- [x] 1-4: _Projeto - Docker - ToDo-List_
+- [] 1-4: _Projeto - Docker - ToDo-List_
 
 ##### Seção 2: Introdução à SQL
 
-- [x] 2-1: _Banco de Dados SQL_
-- [x] 2-2: _Encontrando Dados em um banco de dados_
-- [x] 2-3: _Filtrando dados de forma específica_
-- [x] 2-4: _Manipulando Tabelas_
-- [x] 2-5: _Projeto- All for One_
+- [] 2-1: _Banco de Dados SQL_
+- [] 2-2: _Encontrando Dados em um banco de dados_
+- [] 2-3: _Filtrando dados de forma específica_
+- [] 2-4: _Manipulando Tabelas_
+- [] 2-5: _Projeto- All for One_
 
 ##### Seção 3: Funções SQL, JOINs e Normalização
 ##### Seção 4: Introdução ao desenvolvimento Web com Node.js
