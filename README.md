@@ -133,7 +133,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 10-1: _Projeto - App de Receitas_
 
-## Back-end :white_check_mark:
+## Back-end
 
 ##### Seção 1: Utilizando Containers
 
@@ -162,7 +162,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 12: APIs OO e NoSQL
 ##### Seção 13: Project - App de Delivery
 
-## Ciência da Computação :white_check_mark:
+## Ciência da Computação 
 
 ##### Seção 1: Introdução à Python
 ##### Seção 2: Padrões de Projeto
